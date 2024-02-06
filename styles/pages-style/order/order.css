@@ -1,0 +1,21 @@
+@import url(../../main.css);
+@import url(../../form.css);
+
+.order {
+	display: flex;
+	flex-direction: column;
+	margin: 60px auto;
+	width: 90%;
+}
+
+@media (min-width: 768px) {
+	.form-image {
+		background-image: url("../../../images/order.jpg");
+	}
+}
+
+@media (min-width: 1280px) {
+	.order {
+		margin: 100px auto;
+	}
+}

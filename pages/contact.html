@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/pages-style/contact/contact.css" />
+    <link rel="icon" href="../images/logo.png" />
+    <title>About-us</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container flex-for-header">
+        <a class="logo" href="../index.html">
+          <img class="logo-image" src="../images/logo.png" alt="Logo" />
+        </a>
+        <input type="checkbox" id="hamburger" />
+        <label class="hamburger-label" for="hamburger"
+          ><span class="hamburger-sign">&#9776;</span>
+          <nav class="header-nav">
+            <ul class="header-nav-list">
+              <li class="header-nav-item"><a href="../index.html">Home</a></li>
+              <li class="header-nav-item">
+                <a href="../pages/about-us.html">About Us</a>
+              </li>
+              <li class="header-nav-item">
+                <a href="../pages/portfolio.html">Portfolio</a>
+              </li>
+              <li class="header-nav-item current">
+                <a href="../pages/contact.html">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </label>
+      </div>
+    </header>
+
+    <main class="container header-space">
+      <section class="contacts section">
+        <h1 class="form-title">Contact us</h1>
+        <div class="form-wrap">
+          <div class="form-image"></div>
+          <form class="order-form">
+            <label class="form-label" for="'fname">Full name:</label><br />
+            <input
+              class="form-input"
+              type="text"
+              id="fname"
+              name="fname"
+            /><br />
+            <label class="form-label" for="email">Email:</label><br />
+            <input
+              class="form-input"
+              type="text"
+              id="email"
+              name="email"
+            /><br />
+            <label class="form-label" for="subject">Subject:</label><br />
+            <input
+              class="form-input"
+              type="text"
+              id="subject"
+              name="subject"
+            /><br />
+            <label class="form-label" for="message">Message:</label><br />
+            <input
+              class="form-message-input form-input"
+              type="text"
+              id="message"
+              name="message"
+            /><br />
+            <button class="form-button button" type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+      <section class="section">
+        <div class="contacts-icons">
+          <div class="contacts-text-container">
+            <span>Click for our social media links:</span>
+          </div>
+          <a href="https://www.facebook.com/" target="_blank"
+            ><img
+              src="../images/facebook-logo.png"
+              style="width: 25px"
+              alt="facebook"
+          /></a>
+          <a href="https://twitter.com/?lang=tr" target="_blank"
+            ><img
+              src="../images/twitter-logo.jpg"
+              style="width: 25px"
+              alt="twitter"
+          /></a>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><img
+              src="../images/instagram-logo.png"
+              style="width: 25px"
+              alt="instagram"
+          /></a>
+        </div>
+        <section class="section">
+          <div class="contacts-icons">
+            <img
+              src="../images/location-icon.png"
+              style="height: 40px; width: 40px"
+              alt="location"
+            />
+            <div class="contacts-address-container">
+              <span>Ul. Długa 15, Rozłazino, 84-218 Łęczyce, Poland</span>
+            </div>
+          </div>
+          <div
+            style="
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              height: 100%;
+            "
+          >
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2312.1423615960657!2d17.861397076668325!3d54.58386557267399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fdc3a1695c3e65%3A0x349cc4190bd1cf20!2zRMWCdWdhIDE1LCA4NC0yMTggxYHEmWN6eWNl!5e0!3m2!1spl!2spl!4v1707222825603!5m2!1spl!2spl"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <a class="back-to-top" href="#top">&#x21D1;</a>
+        <p class="footer-copyright">
+          <span class="footer-sign">&copy</span> 2024 INTEGRA NON PROFIT
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

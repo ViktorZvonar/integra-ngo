@@ -1,0 +1,42 @@
+.quote {
+	background-color: var(--color-neutral1);
+}
+
+.quote-wrap {
+	padding: 20px;
+}
+
+.quote-text {
+	color: var(--color-primary);
+	font-size: 20px;
+	font-weight: 100;
+	font-style: italic;
+	margin-bottom: 15px;
+}
+
+.quote-signature {
+	color: var(--color-primary);
+	font-size: var(--font-size-extra-small);
+	font-weight: bold;
+	text-align: end;
+}
+
+@media (min-width: 768px) {
+	.quote-text {
+		font-size: var(--font-size-auxiliary);
+		margin-bottom: 10px;
+	}
+	.quote-wrap {
+		padding: 60px 80px;
+	}
+
+	.quote-signature {
+		font-size: var(--font-size-before-medium);
+	}
+}
+
+@media (min-width: 1280px) {
+	.quote-text {
+		font-size: var(--font-size-large);
+	}
+}

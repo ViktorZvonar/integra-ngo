@@ -1,0 +1,18 @@
+:root {
+	--color-primary: #1f2937;
+	--color-background: #ffffff;
+	--color-neutral1: #e5e7eb;
+	--color-neutral2: #f9faf8;
+	--color-neutral3: #919396;
+	--color-button: #3882f6;
+	--color-menu-border: #fbc55e;
+
+	--font-size-extra-small: 12px;
+	--font-size-small: 14px;
+	--font-size-before-medium: 18px;
+	--font-size-medium: 20px;
+	--font-size-header-logo-text: 24px;
+	--font-size-auxiliary: 30px;
+	--font-size-large: 36px;
+	--font-size-hero-header: 48px;
+}

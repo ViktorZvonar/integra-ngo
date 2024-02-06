@@ -1,0 +1,59 @@
+@import url(../../main.css);
+@import url(../../form.css);
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  margin: 60px auto;
+  width: 90%;
+}
+
+.contacts-text-container {
+  display: none;
+}
+
+.contacts-address-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contacts-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+
+@media (min-width: 768px) {
+  .form-image {
+    background-image: url("../../../images/contact.jpg");
+    height: 600px;
+  }
+
+  .form-button {
+    margin-left: auto;
+    margin-right: 0;
+
+  }
+
+  .contacts-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+}
+
+@media (min-width: 1280px) {
+  .contacts {
+    margin: 100px auto;
+  }
+}
