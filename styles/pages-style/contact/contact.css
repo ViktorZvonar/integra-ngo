@@ -3,9 +3,8 @@
 
 .contacts {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   margin: 60px auto;
-  width: 90%;
 }
 
 .contacts-text-container {
@@ -16,7 +15,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .contacts-icons {
@@ -29,7 +27,6 @@
   margin-bottom: 30px;
 }
 
-
 @media (min-width: 768px) {
   .form-image {
     background-image: url("../../../images/contact.jpg");
@@ -39,7 +36,6 @@
   .form-button {
     margin-left: auto;
     margin-right: 0;
-
   }
 
   .contacts-text-container {
@@ -47,9 +43,6 @@
     justify-content: center;
     align-items: center;
   }
-
-
-
 }
 
 @media (min-width: 1280px) {
