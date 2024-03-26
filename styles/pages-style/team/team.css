@@ -9,8 +9,6 @@
 
 .team-member {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   flex-wrap: wrap;
   border-bottom: 1px solid #ccc;
   border-radius: 10px;
@@ -42,9 +40,17 @@
   color: #333;
   font-weight: bold;
   margin-top: 20px;
+  margin-left: 20px;
 }
 
 .team-member:hover {
   transform: scale(1.2);
   border-color: var(--color-button);
+}
+
+.figure {
+  display: flex;
+  flex-direction: row;
+  min-width: 320px;
+  align-items: center;
 }
