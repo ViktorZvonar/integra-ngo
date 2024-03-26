@@ -12,7 +12,8 @@
   flex-wrap: wrap;
   border-bottom: 1px solid #ccc;
   border-radius: 10px;
-  margin-top: 50px;
+  max-width: 900px;
+  margin: 50px auto 0 auto;
   padding: 10px;
   transition: transform 0.5s ease;
 }
@@ -22,10 +23,6 @@
   text-align: justify;
   margin-top: 20px;
   color: #666;
-}
-
-.team-member:hover {
-  border-color: var(--color-button);
 }
 
 .team-member img {
@@ -43,14 +40,19 @@
   margin-left: 20px;
 }
 
-.team-member:hover {
-  transform: scale(1.2);
-  border-color: var(--color-button);
-}
-
 .figure {
   display: flex;
   flex-direction: row;
-  min-width: 320px;
+  min-width: 240px;
   align-items: center;
+}
+
+.team-member:hover {
+  border-color: var(--color-button);
+}
+
+@media (min-width: 769px) {
+  .team-member:hover {
+    transform: scale(1.1);
+  }
 }

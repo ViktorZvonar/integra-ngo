@@ -10,6 +10,7 @@
   display: flex;
   flex-direction: row;
   justify-content: start;
+  max-width: 900px;
   flex-wrap: wrap;
   border-bottom: 1px solid #ccc;
   border-radius: 10px;
@@ -26,6 +27,11 @@
 }
 
 .team-member:hover {
-  transform: scale(1.3);
   border-color: var(--color-button);
+}
+
+@media (min-width: 769px) {
+  .team-member:hover {
+    transform: scale(1.1);
+  }
 }
