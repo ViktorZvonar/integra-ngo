@@ -3,12 +3,48 @@
 
 .contacts {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap: 30px;
   margin: 60px auto;
+}
+
+@media (min-width: 768px) {
+  .contacts {
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 0;
+  }
+}
+
+.reachout-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .contacts-text-container {
   display: none;
+}
+
+.tel,
+.mail {
+  padding: 1px 10px;
+  border-bottom: dotted 2px blue;
+}
+
+.tel:hover,
+.mail:hover {
+  border-bottom: solid 2px rgb(255, 0, 55);
+}
+
+.reachout {
+  line-height: 1.1;
+}
+.reachout span {
+  display: inline-block;
+  width: 60px;
 }
 
 .contacts-address-container {
