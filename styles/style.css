@@ -20,7 +20,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 5px;
-  background-color: var(--color-button);
+  background-color: #00a0d0;
   color: var(--color-neutral1);
   cursor: pointer;
   border-radius: 5px;

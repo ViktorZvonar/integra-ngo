@@ -31,7 +31,7 @@
 .tel,
 .mail {
   padding: 1px 10px;
-  border-bottom: dotted 2px blue;
+  border-bottom: dotted 2px #00a0d0;
 }
 
 .tel:hover,

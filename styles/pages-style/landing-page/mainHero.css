@@ -29,24 +29,12 @@
 .mainHero-subtext {
   color: var(--color-neutral1);
   font-size: var(--font-size-small);
+  margin-bottom: 10px;
 }
 
 .mainHero-button {
   width: 80%;
   border: transparent;
-}
-
-.button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5px;
-  background-color: var(--color-button);
-  color: var(--color-neutral1);
-  cursor: pointer;
-  border-radius: 5px;
-  outline: none;
-  text-align: center;
 }
 
 .mainHero-image {

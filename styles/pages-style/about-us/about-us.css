@@ -4,6 +4,7 @@
   margin-top: 50px;
   font-size: var(--font-size-large);
   text-align: center;
+  color: #00a0d0;
 }
 
 .team-member {
@@ -27,7 +28,7 @@
 }
 
 .team-member:hover {
-  border-color: var(--color-button);
+  border-color: #00a0d0;
 }
 
 @media (min-width: 769px) {
